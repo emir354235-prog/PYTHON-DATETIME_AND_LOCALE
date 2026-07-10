@@ -9,7 +9,7 @@ print(an.strftime("%X"))#saat
 print(an.strftime("%d"))#gün ayın kaçıncı günü
 print(an.strftime("%A"))#gün ismi
 print(an.strftime("%B"))#ay ismi
-# taih saat bilgisini yerel(local) bilgisibe dönüştürme
+# tarih saat bilgisini yerel(local) bilgisibe dönüştürme
 locale.setlocale(locale.LC_ALL,'tr_TR.UTF-8')
 an2=datetime.datetime.now()
 print(an2)
